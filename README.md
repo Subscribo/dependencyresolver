@@ -11,10 +11,10 @@ Dependency Resolver for resolving dependencies
 1.2 Dependency under "require" or "require-dev" keys
 
 ```json
-    "subscribo/dependencyresolver": "0.1.0"
+    "subscribo/dependencyresolver": "0.1.1"
 ```
 
-1.3 If you are using Laravel (4.2), you might want to add
+1.3 If you are using Laravel you might want to add
 
 ```php
     '\\Subscribo\\DependencyResolver\\Integration\\Laravel\\DependencyResolverServiceProvider',
@@ -25,7 +25,7 @@ under 'providers' key in app/config/app.php file.
 and
 
 ```json
-    "subscribo/serviceprovider": "0.1.0"
+    "subscribo/serviceprovider": "0.1.1"
 ```
 
 under "require" or "require-dev" keys in your composer.json
